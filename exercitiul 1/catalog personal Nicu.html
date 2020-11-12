@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Catalog personal Nicu</title>
+
+<style>
+	body { background-color: purple; }
+	h1 {color: gold;}
+	h2 {color: yellow;}
+	h3 {color: yellow;}
+	p {color: lime;}
+	
+	table {background-color: lightblue;}
+	ul {background-color: lightblue;}
+	
+	table, tr, td, ul {border: 2px solid red;}
+	tr:hover {background-color: aqua;}
+	
+	h1 {font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 40px;}
+	h2 {font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 30px;}
+	h3 {font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 30px;}
+	p {font-family: "Times New Roman";
+		font-size: 20px;
+		color: lime;}
+	li {font-family: "Times New Roman";
+		font-size: 15px;
+		color: darkviolet;}
+		
+	img {border: 3px solid black;
+		border-radius: 12px;
+		width: 200px;
+		height: 250px;
+		display: block;
+		margin: left;
+		opacity: 0.5;}	
+</style>
+
+<script>
+	function Dupa_Absolvire()
+		{
+		document.getElementById("Nume1").innerHTML = "ig. Pop Nicolae Adrian- Profesor Universitar si Programator";
+		document.getElementById("Nume1").style.color = "red";
+		
+		document.getElementById("Titlu1").innerHTML = "Realizari";
+		document.getElementById("Titlu1").style.color = "red";
+		
+		document.getElementById("Titlu2").style.color = "red";
+		
+		
+		document.getElementById("aliniat1").style.color = "blue";
+		document.getElementById("aliniat2").style.color = "blue";
+		document.getElementById("aliniat3").style.color = "blue";
+		
+		document.getElementById("Poza1").src = "nicu2.jpg";
+		document.getElementById("Poza1").style.width = "350px";
+		document.getElementById("Poza1").style.height = "300px";
+		document.getElementById("Poza1").style.border = "thick solid red";
+		
+		
+		
+		document.body.style.backgroundColor = "Lime";
+		
+		var Tabel = document.getElementById("Tabel")
+		Tabel.rows[0].cells[0].innerHTML = "Din punct de vere social";
+		Tabel.rows[0].cells[1].innerHTML = "Lucru in echipa";
+		Tabel.rows[0].cells[2].innerHTML = "Modalitati de exprimare";
+		Tabel.rows[1].cells[0].innerHTML = "Din punc de verede profesional";
+		Tabel.rows[1].cells[1].innerHTML = "Acumularea de informatii";
+		Tabel.rows[1].cells[2].innerHTML = "Inginer si Profesor";
+		Tabel.rows[2].cells[0].innerHTML = "Alte aspecte";
+		Tabel.rows[2].cells[1].innerHTML = "Sa fiu sanatos";
+		Tabel.rows[2].cells[2].innerHTML = "Sa am o familie frumoasa";
+		
+		document.getElementById("t1").style.color = "darkviolet";
+		document.getElementById("t2").style.color = "darkviolet";
+		document.getElementById("t3").style.color = "darkviolet";
+		document.getElementById("t4").style.color = "darkviolet";
+		document.getElementById("t5").style.color = "darkviolet";
+		document.getElementById("t6").style.color = "darkviolet";
+		document.getElementById("t7").style.color = "darkviolet";
+		document.getElementById("t8").style.color = "darkviolet";
+		document.getElementById("t9").style.color = "darkviolet";
+		}
+</script>
+</head>
+
+<body>
+
+	<h1 id="Nume1">Pop Nicolae Adrian</h1>
+		<img id="Poza1" src="nicu.jpg" width="200" height="250">
+		<p></p>
+		<button onclick="Dupa_Absolvire()">Alta viata</button>
+		<p id="aliniat1">p.nicu173@gmail.com</p>
+		<p id="aliniat2">Pop.Ni.Adrian@utcluj.didatec.ro</p>
+		<p></p>
+	<h2 id="Titlu1">Materii prefereate</h2>
+	
+<table id="Tabel">
+    <tr>
+		<td id="t1">CCEP</td>
+		<td id="t2">Anul 1</td>
+		<td id="t3"> <a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Descriere Disciplina</a></td>
+    </tr>
+    <tr>
+		<td id="t4">Programarea calculatoarelor</td>
+		<td id="t5">Anul 1</td>
+		<td id="t6"><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/04.pdf">Descriere Disciplina</a></td>
+    </tr>
+	<tr>
+		<td id="t7">Elemente de fizica</td>
+		<td id="t8">Anul 1</td>
+		<td id="t9"><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/03.pdf">Descriere Disciplina</a></td>
+</table>
+	<h3 id="Titlu2">Pasiuni/Hobby</h3>
+		<ul>
+			<li>Handball</li>
+			<li>Fitness</li>
+			<li>Drumetii</li>
+			<li>Seriale</li>
+		</ul>
+	<p id="aliniat3">Totul e bine si frumos pana cand incepe cursul de analiza cu domnul Gavrea.</p>
+	<a href="Catalog.html">Inapoi</a>
+</body>
+</html>
